@@ -16,13 +16,13 @@ pipeline{
             }
             post{
                 success{
-                    mail to: "sovanpanhaarinn@gmail.com"
-                    subject: "Unit and Integration Tests Status Email"
+                    mail to: "sovanpanhaarinn@gmail.com",
+                    subject: "Unit and Integration Tests Status Email",
                     body: "Test completed successfully!"
                 }
                 failure{
-                    mail to: "sovanpanhaarinn@gmail.com"
-                    subject: "Unit and Integration Tests Status Email"
+                    mail to: "sovanpanhaarinn@gmail.com",
+                    subject: "Unit and Integration Tests Status Email",
                     body: "Test failed!"
                 }
             }
@@ -40,13 +40,13 @@ pipeline{
             }
             post{
                 success{
-                    mail to: "sovanpanhaarinn@gmail.com"
-                    subject: "Security Scan Status Email"
+                    mail to: "sovanpanhaarinn@gmail.com",
+                    subject: "Security Scan Status Email",
                     body: "Scan completed successfully!"
                 }
                 failure{
-                    mail to: "sovanpanhaarinn@gmail.com"
-                    subject: "Security Scan Status Email"
+                    mail to: "sovanpanhaarinn@gmail.com",
+                    subject: "Security Scan Status Email",
                     body: "Scan failed!"
                 }
             }
@@ -64,13 +64,13 @@ pipeline{
             }
             post{
                 success{
-                    mail to: "sovanpanhaarinn@gmail.com"
-                    subject: "Staging Integration Tests Status Email"
+                    mail to: "sovanpanhaarinn@gmail.com",
+                    subject: "Staging Integration Tests Status Email",
                     body: "Test completed successfully!"
                 }
                 failure{
-                    mail to: "sovanpanhaarinn@gmail.com"
-                    subject: "Staging Integration Tests Status Email"
+                    mail to: "sovanpanhaarinn@gmail.com",
+                    subject: "Staging Integration Tests Status Email",
                     body: "Test failed!"
                 }
             }
