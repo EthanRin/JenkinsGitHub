@@ -4,6 +4,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
+                echo "GitHub's commit triggered"
                 echo "Using Maven as the build automation tool"
                 echo "Building and packaging..."
                 
